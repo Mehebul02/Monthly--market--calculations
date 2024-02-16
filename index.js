@@ -13,6 +13,8 @@ btnSubmit.addEventListener('click',function(){
     calculateTotal("1st_cgpa")
     calculateTotal("2nd_cgpa")
     calculateTotal("3rd_cgpa")
+    tenPregnant('4th_cgpa')
+    fiveteenPregnant('5th_cgpa')
 
    
 })
