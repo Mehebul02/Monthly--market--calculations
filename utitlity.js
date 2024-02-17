@@ -55,7 +55,10 @@ function cgpaToGrade(cgpa) {
     return "B-";
   } else if (totalCgpa >= 1.5 && totalCgpa < 2) {
     return "C";
-  } else {
-    return "Fail";
+  } else if(totalCgpa > 4) {
+    return "Please Enter Cgpa Correctly";
+  }
+  else{
+    return "Fail"
   }
 }
